@@ -9,15 +9,15 @@
 <br/>
 <br/>
 <div align='center'>
-<img src="./layout/cardapioDigital-1.png" width="350x">
-<img src="./layout/cardapioDigital-2.png" width="350px">
+<img src="./layout/cardapioDigital-1.jpg" width="350px">
+<img src="./layout/cardapioDigital-2.jpg" width="350px">
 </div>
 <br/>
 <br/>
 <h3 align='center'> Design versão mobile </h3>
 <div align='center'>
-<img src="./layout/cardapioDigital-4.png" width="300x">
-<img src="./layout/cardapioDigital-5.png" width="302px">
+<img src="./layout/cardapioDigital-4.jpg" width="300px">
+<img src="./layout/cardapioDigital-5.jpg" width="302px">
 </div>
 
 <br/>
