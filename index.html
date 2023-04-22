@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--JavaScript-->
+    <script src="./JS/script.js" defer></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!--fonteAwesome-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Cardápio Digital</title>
+  </head>
+  <body>
+    <div class="cardapio-container">
+      <header class="cardapio-header">
+        <nav class="nav">
+          <div class="logo">
+            <img
+              src="./img/logo/real-simple-mushroom-black-bean-burgers-recipe-0c365277d4294e6db2daa3353d6ff605.jpg"
+              alt=""
+            />
+          </div>
+          <div class="welcome">
+            <span> Bem-vindo</span>
+          </div>
+         
+          <div class="menu-btns">
+            <button id="menu-btn">
+              Abrir menu
+              <i class="fa-sharp fa-solid fa-list fa-sm"></i>
+            </button>
+
+            <button id="cart-btn">
+              Meu pedido
+              <i class="fa-sharp fa-solid fa-cart-shopping fa-sm"></i>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <aside class="aside-menu hide">
+        <div class="food-container">
+          <span class="food-option">pizzas</span>
+          <ul class="food-list hide">
+            <li class="item-food">Pizza calabresa</li>
+            <li class="item-food">Pizza quatro queijos</li>
+            <li class="item-food">Pizza portuguesa</li>
+            <li class="item-food">Pizza de carne seca</li>
+          </ul>
+        </div>
+        <div class="food-container">
+          <span class="food-option">Refrigerantes e sucos</span>
+          <ul class="food-list hide">
+            <li class="item-food">Suco de laranja</li>
+            <li class="item-food">limonada</li>
+            <li class="item-food">coca-cola</li>
+            <li class="item-food">coca-cola zero</li>
+          </ul>
+        </div>
+        <div class="food-container">
+          <span class="food-option">drinks e cervejas</span>
+          <ul class="food-list hide">
+            <li class="item-food">Caipirinha</li>
+            <li class="item-food">Cerveja</li>
+            <li class="item-food">Wisky</li>
+            <li class="item-food">Negroni</li>
+            <li class="item-food">Piña Colada</li>
+            <li class="item-food">Old Fashioned.</li>
+            <li class="item-food">Martini</li>
+          </ul>
+        </div>
+        <div class="food-container">
+          <span class="food-option">sobremesas</span>
+          <ul class="food-list hide">
+            <li class="item-food">Pudim</li>
+            <li class="item-food">Brownie</li>
+            <li class="item-food">Sorvete</li>
+          </ul>
+        </div>
+      </aside>
+      <main class="main-section hide">
+        <div class="item">
+          <div class="img-and-description">
+            <h2 class="title-item"></h2>
+            <p class="description"></p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
